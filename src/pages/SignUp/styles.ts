@@ -49,6 +49,8 @@ export const Content = styled.div`
     text-decoration: none;
     transition: color 0.2s;
 
+    flex-direction: column;
+
     &:hover {
       color: ${shade(0.2, '#FFFFFF')};
     }

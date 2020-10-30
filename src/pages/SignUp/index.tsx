@@ -24,7 +24,7 @@ const SignUp: React.FC = () => {
             <h1>Sign Up</h1>
 
             <Input name="email" icon={FiMail} placeholder="Email" />
-            <Input name="name" icon={FiUser} placeholder="Name" />
+            <Input name="name" placeholder="Name" icon={FiUser} />
 
             <Input
               name="password"
